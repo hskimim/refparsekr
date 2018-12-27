@@ -1,4 +1,4 @@
-import oop_function as ref
+import functions as ref
 
 class Slicing_paper:
 
