@@ -11,7 +11,7 @@ This package can parse the references line by line by using `regular expression.
 I'm gonna make fine tuned version of package which can split the sentence into name , year , paper title , journal etc
 ### Install
 ```
-pip install refparsekr
+pip install -e git+https://github.com/hskimim/refparsekr.git#egg=CA
 ```
 
 ### Example Code
