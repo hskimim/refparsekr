@@ -9,6 +9,11 @@ This package can parse the references line by line by using `regular expression.
 
 ### Further task
 I'm gonna make fine tuned version of package which can split the sentence into name , year , paper title , journal etc
+### Install
+```
+pip install refparsekr
+```
+
 ### Example Code
 ```python
 file_path = os.listdir("/home/hskimim/Documents/pdf_folder/")[0]
