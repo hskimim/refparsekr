@@ -104,7 +104,7 @@ def find_end_page(start_page,file_) :
         try :
             new_last_page = \
             np.max([idx for idx,val in enumerate(page_ls) if re.search('[0-9]+[-][0-9]+',val)])
-        networkx    return start_page + new_last_page + 1
+            return start_page + new_last_page + 1
         except : return -1
 
 def slicing_the_references(start_page,end_page,file_) :
