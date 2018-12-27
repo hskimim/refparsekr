@@ -7,6 +7,11 @@ Python package for parsing the academic references.
 Academic paper we can get is formed as PDF or DOCS etc (.pdf , .docs)
 This package can parse the references line by line by using `regular expression.`  
 
+### Requirement
+You need to install package named [pdfminer.six](https://pypi.org/project/pdfminer.six/)
+you can also install easily the package as command line
+```pip install pdfminer.six```
+
 ### Further task
 I'm gonna make fine tuned version of package which can split the sentence into name , year , paper title , journal etc
 ### Install
