@@ -1,4 +1,4 @@
-import functions as ref
+import refparsekr.functions as ref
 
 class Slicing_paper:
 
