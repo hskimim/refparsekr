@@ -21,10 +21,10 @@ dependency_links = [
 setup(
     name='parsing_the_references',
     version='0.1',
-    license='MIT',
+    license='GNU GENERAL PUBLIC LICENSE',
     author='hskimim',
     author_email='hskimim8855@gmail.com',
-    url='https://github.com/hskimim/textrankr',
+    url='https://github.com/hskimim/refparsekr',
     description='Parse the references line by line',
     packages=find_packages(),
     include_package_data=True,
