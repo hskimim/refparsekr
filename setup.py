@@ -11,7 +11,6 @@ setup_requires = [
 install_requires = [
     'pandas==0.23.4',
     'numpy==1.15.1',
-    'pdfminer.six==20181108'
     ]
 
 dependency_links = [
@@ -26,8 +25,17 @@ setup(
     author_email='hskimim8855@gmail.com',
     url='https://github.com/hskimim/refparsekr',
     description='Parse the references line by line',
-    packages=find_packages(),
+    packages=['ML'],
     include_package_data=True,
-    install_requires=requirements,
-    classifiers=[],
-)
+    install_requires=install_requires,
+    setup_requires=setup_requires,
+    dependency_links=dependency_links,
+
+entry_points={
+        'console_scripts': [
+            ],
+        "egg_info.writers": [
+                "foo_bar.txt = setuptools.command.egg_info:write_arg",
+            ],
+        },
+    )
